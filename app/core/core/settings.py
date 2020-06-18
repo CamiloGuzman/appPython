@@ -151,8 +151,7 @@ CKEDITOR_CONFIGS = {
             ['RemoveFormat', 'Source']
         ]
     }
-        
-    }
+}
 
 EMAIL_HOST = 'smtp.mailtrap.io'
 EMAIL_HOST_USER = '73732ed675eeda'
