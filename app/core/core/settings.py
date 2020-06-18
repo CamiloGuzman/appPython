@@ -132,7 +132,7 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
  
 # Ruta para llegar a los archivos media:
-MEDIA_ROOT = os.path.join(BASE_DIR, "src/static/assets/media/")
+STATIC_ROOT = os.path.join(BASE_DIR, "src/static/assets/media/")
 
 STATICFILES_DIRS = (  
     os.path.join(BASE_DIR, 'static'),
@@ -157,3 +157,5 @@ EMAIL_HOST = 'smtp.mailtrap.io'
 EMAIL_HOST_USER = '73732ed675eeda'
 EMAIL_HOST_PASSWORD = '7560f00eabec19'
 EMAIL_PORT = '2525'
+
+django_heroku.settings(locals())
